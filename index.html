@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VESTA | عروض حصرية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #050505;
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            overflow-x: hidden;
+        }
+
+        header {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://i.postimg.cc/mgcR2xLd/Gemini-Generated-Image-eolu7heolu7heolu.png') no-repeat center center/cover;
+            text-align: center;
+            border-bottom: 2px solid #D4AF37;
+        }
+
+        header h1 {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(50px, 8vw, 100px);
+            margin: 0;
+            color: #D4AF37;
+            letter-spacing: 10px;
+        }
+
+        .offer-banner {
+            background: #D4AF37;
+            color: #000;
+            text-align: center;
+            padding: 15px 0;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            background: #000;
+            border: 1px solid #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            transition: 0.4s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            border-color: #D4AF37;
+            transform: translateY(-10px);
+        }
+
+        .image-container {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .product-card h3 {
+            font-family: 'Cinzel', serif;
+            color: #D4AF37;
+            margin: 10px 0;
+        }
+
+        .details {
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .scents {
+            margin: 10px 0;
+            font-size: 13px;
+            color: #D4AF37;
+            background: rgba(212, 175, 55, 0.1);
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px dashed rgba(212, 175, 55, 0.3);
+        }
+
+        .price-box {
+            margin-top: auto;
+            border-top: 1px solid #222;
+            padding-top: 15px;
+        }
+
+        .single-price { font-size: 18px; color: #fff; }
+        .bundle-price { 
+            font-size: 24px; 
+            color: #D4AF37; 
+            font-weight: bold;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .order-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 12px 0;
+            margin-top: 15px;
+            background: transparent;
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .order-btn:hover {
+            background: #D4AF37;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #444;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VESTA</h1>
+        <p>Luxury Earth & Aroma</p>
+    </header>
+
+    <div class="offer-banner">
+        عروض VESTA: القطعة بـ 130 ج.م | القطعتين بـ 200 ج.م لفترة محدودة
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://i.postimg.cc/mgcR2xLd/Gemini-Generated-Image-eolu7heolu7heolu.png" alt="Candle">
+                </div>
+                <h3>Scented Candles</h3>
+                <p class="details">شمع صويا طبيعي يدوي الصنع</p>
+                <div class="scents">
+                    المتاح: برائحة الفراولة 🍓 أو اللافندر 🌿
+                </div>
+                <div class="price-box">
+                    <span class="single-price">القطعة: 130 ج.م</span>
+                    <span class="bundle-price">القطعتين: 200 ج.م</span>
+                </div>
+                <a href="#" class="order-btn">اطلب عبر واتساب</a>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://i.postimg.cc/Mpw4Nhcr/Gemini-Generated-Image-4yjcfa4yjcfa4yjc.png" alt="Concrete">
+                </div>
+                <h3>Concrete Art</h3>
+                <p class="details">ديكورات خرسانية بتصاميم عصرية</p>
+                <div class="scents">
+                    المتاح: برائحة الفراولة 🍓 أو اللافندر 🌿
+                </div>
+                <div class="price-box">
+                    <span class="single-price">القطعة: 130 ج.م</span>
+                    <span class="bundle-price">القطعتين: 200 ج.م</span>
+                </div>
+                <a href="#" class="order-btn">اطلب عبر واتساب</a>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://i.postimg.cc/wvjwgzHD/Gemini-Generated-Image-mxgetsmxgetsmxge-(1).png" alt="Marble">
+                </div>
+                <h3>Imperial Marble</h3>
+                <p class="details">لمسات رخامية طبيعية فاخرة</p>
+                <div class="scents">
+                    المتاح: برائحة الفراولة 🍓 أو اللافندر 🌿
+                </div>
+                <div class="price-box">
+                    <span class="single-price">القطعة: 130 ج.م</span>
+                    <span class="bundle-price">القطعتين: 200 ج.م</span>
+                </div>
+                <a href="#" class="order-btn">اطلب عبر واتساب</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 VESTA STUDIO | Crafted for Excellence</p>
+    </footer>
+
+</body>
+</html>
